@@ -1,0 +1,18 @@
+{
+  "name": "summarizer",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "name",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "nodemon -L index.js"
+  },
+  "dependencies": {
+    "express": "4.18.1",
+    "openai-nodejs": "1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
